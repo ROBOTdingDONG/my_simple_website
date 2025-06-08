@@ -4,14 +4,21 @@
     <!-- Meta Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My Simple Website - A modern, responsive web experience">
-    <meta name="keywords" content="website, portfolio, web development">
+    <meta name="description" content="My Simple Website - A modern, responsive web experience with interactive animations">
+    <meta name="keywords" content="website, portfolio, web development, interactive, modern design">
     <meta name="author" content="Your Name">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="My Simple Website">
-    <meta property="og:description" content="A modern, responsive web experience">
+    <meta property="og:description" content="A modern, responsive web experience with interactive animations">
     <meta property="og:url" content="https://robotdingdong.github.io/my_simple_website/">
     
     <!-- Page Title -->
@@ -29,6 +36,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Animated Background Container -->
+    <div id="animated-background" aria-hidden="true"></div>
+    
     <!-- Skip to main content for accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
     
@@ -232,5 +242,6 @@
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
+    <script src="js/animated-background.js"></script>
 </body>
 </html>
