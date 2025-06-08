@@ -17,6 +17,19 @@ out/
 .vuepress/dist/
 .docusaurus/
 
+# Jekyll Specific Files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Ruby and Bundler
+.bundle/
+vendor/
+.ruby-version
+.rbenv-version
+
 # Environment Variables and Configuration
 .env
 .env.local
@@ -110,3 +123,9 @@ docs/_build/
 # Backup files
 *.bak
 *.backup
+
+# Jekyll drafts (optional - remove if you want to track drafts)
+_drafts/
+
+# Local Jekyll serve files
+.jekyll-livereload
