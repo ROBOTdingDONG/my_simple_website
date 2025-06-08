@@ -1,0 +1,112 @@
+# Dependencies and Package Managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json  # Remove this line if you want to commit lock files
+yarn.lock         # Remove this line if using yarn and want to commit lock files
+
+# Build Outputs and Distribution
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+.docusaurus/
+
+# Environment Variables and Configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+
+# Security and Sensitive Files
+*.key
+*.pem
+*.p12
+*.pfx
+config/secrets.json
+secrets/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs and Temporary Files
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+.sass-cache/
+
+# Testing and Coverage
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+
+# Runtime and Process Files
+.pid
+.seed
+.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Static Site Generators
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.hugo_build.lock
+
+# Deployment and CI/CD
+.vercel
+.netlify/
+
+# Database files (if using local development databases)
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated documentation
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
