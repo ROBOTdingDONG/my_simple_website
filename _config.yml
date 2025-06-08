@@ -20,7 +20,7 @@ author:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
+# theme: minima  # Commented out to use custom dark theme
 
 # Plugins
 plugins:
