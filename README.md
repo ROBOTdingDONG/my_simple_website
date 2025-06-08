@@ -4,7 +4,7 @@ Brief description of your website/project.
 
 ## 🚀 Live Demo
 
-- **GitHub Pages**: (https://yourusername.github.io/repo-name)](https://robotdingdong.github.io/my_simple_website/)
+- **GitHub Pages**: [(https://robotdingdong.github.io/my_simple_website/)]
 - **Production**: [https://yourwebsite.com](https://yourwebsite.com) (when deployed)
 
 ## 📋 Features
